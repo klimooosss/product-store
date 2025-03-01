@@ -24,11 +24,11 @@ const Navbar = () => {
                 fontSize={{base: '22', sm: '28'}}
                 fontWeight='bold'
             >
-                <Link to='/'>Product Store 🛒</Link>
+                <Link to={'/'}>Product Store 🛒</Link>
             </Text>
 
             <HStack spacing={2} alignItems={"center"}>
-                <Link to="/create">
+                <Link href={'/create'}>
                     <Button>
                         <PlusSquareIcon fontSize={20}/>
                     </Button>
